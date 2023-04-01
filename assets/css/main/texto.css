@@ -1,0 +1,37 @@
+main {
+   display: flex;
+}
+
+.texto{
+    width: 50%;
+}
+
+.texto__campo {
+    height: 350px;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: none;
+    background-color: #E5E5E5;
+}
+
+.texto__campo::placeholder {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #0A3871; 
+    font-size: 25px;
+}
+
+.texto__botao--cript{
+    background-color: #0A3871;
+    color: white;
+    cursor: pointer;
+    width: 240px;
+    height: 40px;
+    margin-left: 70px;
+    border-radius: 24px;
+    border: none;
+}

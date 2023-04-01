@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  width: 100%;
+}
+
+.footer__contatos {
+  background-color:rgb(218, 218, 175);
+  font-size: 15px;
+  height: 100px;
+  width: 100vw;
+  text-align: center;
+  padding: 29px;
+  margin-top: 10px;
+}
+
+.footer__contatos--autor {
+  margin-top: 23px;
+  font-weight: bold;
+}
+
+.footer-contatos--link {
+    color: black;
+}
+
+a:hover {
+    font-size: 20px;
+}
