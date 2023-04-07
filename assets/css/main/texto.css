@@ -1,18 +1,20 @@
 main {
    display: flex;
+   margin-top: 2px;
 }
 
 .texto{
-    width: 50%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 .texto__campo {
     height: 350px;
     width: 600px;
-    margin-top: 20px;
+    margin-top: 4px;
     margin-left: 50px;
     border: none;
-    background-color: #E5E5E5;
+    background-color: #F3F5FC;
 }
 
 .texto__campo::placeholder {
@@ -31,7 +33,64 @@ main {
     cursor: pointer;
     width: 240px;
     height: 40px;
+    margin-right: 15px;
     margin-left: 70px;
     border-radius: 24px;
     border: none;
+}
+
+.texto__botao--descript{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-color: #2b84f0; 
+    cursor: pointer;
+    width: 240px;
+    height: 40px;
+    border-radius: 24px;
+}
+
+.texto__orientacao {
+    margin-left: 53px;
+    color: #495057;
+    font-size: 14px;
+}
+
+.texto__des {
+    display: block;
+    background-color: #FFFFFF;
+    height: 570px;
+    width: 400px;
+    margin-right: 64px;
+    left: 4px;
+    margin-top: -80px;
+    border-radius: 32px;
+}
+
+.texto__des--input {
+    height: 350px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: none;
+    background-color: #FFFFFF;
+    display: block;
+}
+
+.texto__des--input::placeholder {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    margin-top: 320px;
+    color: #343A40; 
+    font-size: 18px;
+    text-align: center;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.texto__des--orientacao {
+    text-align: center;
+    color: #495057;
+    font-size: 16px;
+    margin-top: 4px;
 }
