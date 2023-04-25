@@ -1,1 +1,8 @@
-# challenge_one_decodificador
+Challenge ONE
+Iniciante em Programação
+
+Sprint 01: Construa um decodificador de texto com Javascript
+
+Site com todas as informações do desafio:
+
+https://www.alura.com.br/challenges/challenge-one-logica/sprint01-construa-decodificador-texto-com-javascript
