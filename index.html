@@ -6,34 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador</title>
+    <link rel="icon" type="image/png" href="./assets/img/JPCODE.png">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/header/logo.css">
     <link rel="stylesheet" href="./assets/css/main/texto.css">
+    <link rel="stylesheet" href="./assets/css/main/texto__des.css">
     <link rel="stylesheet" href="./assets/css/footer/footer__contatos.css">
 </head>
 <body>
+
     <header>
         <img class="logo" alt="Logo Jonatas Pedro" src="./assets/img/JPCODE.png"/>
     </header>
+
     <main>
-        <div class="texto">
-            <input type="text" class="texto__campo" placeholder="Digite seu texto">  
-            <p class="texto__orientacao">* Apenas letras minúsculas e sem acento.</p>
-            <button class="texto__botao--cript">Criptografar</button>
-            <button class="texto__botao--descript">Descriptografar</button>
-        </div>
-        <div class="texto__des">
-            <input type="text"  class="texto__des--input" 
-            placeholder="Nenhuma mensagem encontrada">  
-            <p class="texto__des--orientacao">Digite um texto que você deseja criptografar ou descriptografar.</p>
-        </div>
+        <section class="texto">
+            <textarea type="text"  id="texto__campo" placeholder="Digite seu texto" ></textarea>
+            <p class="texto__orientacao">
+                <img src="./assets/img/Vector.png" alt="Icone">
+                 Apenas letras minúsculas e sem acento.</p>
+            <button onclick="criptografarPalavra(); remover(); exibirBotaoNovo(); exibirInput()" class="texto__botao--cript" id="btnCopy">Criptografar</button>
+            <button onclick="descriptografarPalavra(); remover(); exibirBotaoNovo()" class="texto__botao--descript">Descriptografar</button>  
+        </section>
+        <section class="texto__des">
+            <textarea class="resultado__des--omitido"  id="resultado"></textarea>  
+            <img class="texto__des--img" id ="remover" alt="imagem" src="./assets/img/img.png"/>
+            <button onclick="copiarTexto()" class="texto__des--removerB" id="texto__des--copiar" >Copiar</button>
+        </section>
     </main>
+
     <footer>
         <div class="footer__contatos">
             <p class="footer__contatos--autor">Desenvolvido por : Jonatas Pedro</p>
             <a class="footer-contatos--link" href="https://www.linkedin.com/in/jonataspedrodev" target="_target">Linkedin | </a>
             <a class="footer-contatos--link" href="https://github.com/jonataspedro01" target="_target">Github</a>
-         </div>
+        </div>
     </footer>
+    
+<script src="./assets/js/descript.js"></script>
+<script src="./assets/js/remover.js"></script>
+<script src="./assets/js/exibir.js"></script>
+<script src="./assets/js/copiar.js"></script>
+
 </body>
 </html>

@@ -3,21 +3,29 @@ main {
    margin-top: 2px;
 }
 
-.texto{
+.texto {
     width: 70%;
     margin-left: 15%;
+    
 }
 
-.texto__campo {
-    height: 350px;
+#texto__campo {
+    padding-bottom: 310px; 
+    box-sizing: border-box;
     width: 600px;
     margin-top: 4px;
     margin-left: 50px;
     border: none;
     background-color: #F3F5FC;
+    color: #0A3871; 
+    font-size: 25px;
+    top: 0; 
+    left: 0;
+    text-align: justify;
+    overflow: hidden;
 }
 
-.texto__campo::placeholder {
+#texto__campo::placeholder {
     position: absolute;
     top: 0; 
     left: 0;
@@ -27,7 +35,7 @@ main {
     font-size: 25px;
 }
 
-.texto__botao--cript{
+.texto__botao--cript {
     background-color: #0A3871;
     color: white;
     cursor: pointer;
@@ -39,10 +47,11 @@ main {
     border: none;
 }
 
-.texto__botao--descript{
+.texto__botao--descript {
     background-color: #D8DFE8;
-    color: #0A3871;
-    border-color: #2b84f0; 
+    color: #0A3871; 
+    /* border-color: #0A3871;  */
+    border: 1px solid rgb(85, 85, 192);
     cursor: pointer;
     width: 240px;
     height: 40px;
@@ -53,44 +62,4 @@ main {
     margin-left: 53px;
     color: #495057;
     font-size: 14px;
-}
-
-.texto__des {
-    display: block;
-    background-color: #FFFFFF;
-    height: 570px;
-    width: 400px;
-    margin-right: 64px;
-    left: 4px;
-    margin-top: -80px;
-    border-radius: 32px;
-}
-
-.texto__des--input {
-    height: 350px;
-    width: 90%;
-    margin-top: 10px;
-    margin-left: 15px;
-    border: none;
-    background-color: #FFFFFF;
-    display: block;
-}
-
-.texto__des--input::placeholder {
-    position: absolute;
-    top: 0; 
-    left: 0;
-    margin-top: 320px;
-    color: #343A40; 
-    font-size: 18px;
-    text-align: center;
-    margin-left: 5px;
-    font-weight: bold;
-}
-
-.texto__des--orientacao {
-    text-align: center;
-    color: #495057;
-    font-size: 16px;
-    margin-top: 4px;
 }

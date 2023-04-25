@@ -1,0 +1,79 @@
+.texto__des {
+    display: block;
+    background-color: #FFFFFF;
+    height: 570px;
+    width: 400px;
+    margin-right: 64px;
+    left: 4px;
+    margin-top: -80px;
+    border-radius: 32px;
+}
+
+.texto__des--input {
+   color:  #0A3871;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: none;
+    background-color: #FFFFFF;
+    display: block;
+}
+
+.texto__des--input::placeholder {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    margin-top: 320px;
+    color: #343A40; 
+    font-size: 18px;
+    text-align: center;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.texto__des--img {
+    height: 95%;
+    width: 17rem;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+.texto__des:hover {
+    text-decoration: none;
+}
+
+#texto__des--copiar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+     /* border-color: #0A3871;  */
+     border: 1px solid rgb(85, 85, 192);
+    cursor: pointer;
+    width: 240px;
+    height: 40px;
+    border-radius: 24px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.resultado__des--omitido {
+    display: none;
+}
+
+.texto__des--removerB {  
+    display: none;
+}
+
+#resultado {
+    color: #495057;
+    overflow: hidden;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 25px;
+    text-align: justify;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 300px;
+    height: 450px; 
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
